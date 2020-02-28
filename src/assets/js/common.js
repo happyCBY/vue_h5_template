@@ -4,7 +4,7 @@ export default {
   // 测试一
   demo1 (data) {
     return request({
-      url: '',
+      url: '/api/label',
       method: 'get',
       params: data
     })
